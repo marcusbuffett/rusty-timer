@@ -1,10 +1,17 @@
 [package]
-name = "rusty-timer"
-version = "0.1.0"
-authors = ["Marcus Buffett <marcusbuffett@me.com>"]
+name = "rusted-timer"
+version = "1.1.4"
+authors = ["Marcus Buffett <me@mbuffett.com>"]
+description = "CLI timer"
+homepage = "https://github.com/marcusbuffett/rusty-timer"
+repository = "https://github.com/marcusbuffett/rusty-timer"
 edition = "2018"
+keywords = ["cli", "tool", "timer", "time"]
+license = "MIT"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "timer"
+path = "src/main.rs"
 
 [dependencies]
 figlet-rs = "0.1.3"
